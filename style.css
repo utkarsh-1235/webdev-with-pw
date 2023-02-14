@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Lato', sans-serif;;
+}
+.logo{
+    margin:10px 20px ;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 30px;
+    
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font: bold;
+}
+.navbar ul li a{
+     text-decoration: none;
+     color: black;
+     
+}
+.navbar ul li a:hover{
+    background-color: rgb(87, 14, 205);
+}
+.btn{
+   background-color: rgb(87, 14, 205);
+ color: white;
+    border-radius: 4px;
+    padding: 6px 20px;  
+    border: none;
+    margin: 17px;
+    font: 1.5rem;
+    cursor:pointer;
+    font-weight: bold;
+}
+.btn1{
+    background-color: rgb(87, 14, 205);
+    color: white;
+       border-radius: 4px;
+       padding: 6px 20px;  
+       border: none;
+       margin: 35px 2px;
+       font: 1.5rem;
+       cursor:pointer;
+       font-weight: bold;
+       float: left; 
+}
+.sec{
+height: 300px;
+text-align:left;
+width: 20%;
+    margin: 50px 50px;
+    padding: 30px;
+    display:block;
+}
+.sec h1{
+ font-size: 2rem;
+ color: rgb(87, 14, 205);
+}
+.sec span{
+  color: rgb(105, 71, 159);
+}
+.sec h6{
+  font-size: 0.5rem;
+  text-align: left;
+}
+body{
+background-image: url(https://images.pexels.com/photos/7172825/pexels-photo-7172825.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
